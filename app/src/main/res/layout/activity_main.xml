@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etCatName"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="Cat Name" />
+
+    <EditText
+        android:id="@+id/etCatAge"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="Cat Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etCatBreed"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="Cat Breed" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Save"
+        android:background="@color/pink"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

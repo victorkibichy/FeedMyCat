@@ -3,5 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="pink">#FFC0CB</color>
-
+    <color name="high_contrast_background">#FF6F61</color> <!-- A contrasting background color -->
+    <color name="high_contrast_text">#FFFFFF</color>
 </resources>

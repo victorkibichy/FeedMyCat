@@ -28,8 +28,6 @@
         android:id="@+id/btnSave"
         android:layout_width="match_parent"
         android:layout_height="68dp"
-        android:text="Save"
-        android:background="@color/pink"
-        android:textColor="@android:color/white"/>
+    android:text="Save" />
 
 </LinearLayout>

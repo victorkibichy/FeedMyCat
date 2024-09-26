@@ -95,7 +95,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 private fun sendNotification() {
-        val notificationId = 1
+        val notificationId = 3
         val intent = Intent(this, MainActivity::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         }
